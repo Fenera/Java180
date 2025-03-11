@@ -106,6 +106,8 @@ public class Main {
                 case "quit":
                     run = false;
                     break;
+                default:
+                    System.out.println("\nPlease enter a correct input.\n");
 
             }
         }
